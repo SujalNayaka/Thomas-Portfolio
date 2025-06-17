@@ -24,47 +24,39 @@ export const navLinks = [
 export const clientReviews = [
   {
     id: 1,
-    name: 'Emily Johnson',
-    position: 'Marketing Director at GreenLeaf',
-    img: 'assets/review1.png',
+    name: 'Home Maker',
+    position: 'Tharas Kitchen',
+    img: 'assets/woman.png',
     review:
-      'Working with husam was a fantastic experience. He transformed our outdated website into a modern, user-friendly platform. His attention to detail and commitment to quality are unmatched. Highly recommend him for any web dev projects.',
+      'Working with Thomas was a fantastic experience. He Built modern website for my small home business and a user-friendly platform. His attention to detail and commitment to quality are unmatched. Highly recommend him for any web dev projects.',
   },
   {
     id: 2,
-    name: 'Abdul Rahman',
-    position: 'Founder of TechGear Shop',
-    img: 'assets/review2.png',
+    name: 'VV Reddy',
+    position: 'Vision Consultancy',
+    img: 'assets/user.png',
     review:
-      'Husam\'s expertise in web development is truly impressive. He delivered a robust and scalable solution for our e-commerce site, and our online sales have significantly increased since the launch. He’s a true professional! Fantastic work.',
+      'Thomas\'s expertise in web development is truly impressive. He delivered a user friendly and a stunning website for our services, and our consultancy services have significantly increased since the launch. He’s a true professional! Fantastic work.',
   },
   {
     id: 3,
-    name: 'John bradin',
-    position: 'Project Manager at UrbanTech ',
-    img: 'assets/review3.png',
+    name: 'Vishwa',
+    position: 'CTR',
+    img: 'assets/user.png',
     review:
-      'I can’t say enough good things about Husam. He was able to take our complex project requirements and turn them into a seamless, functional website. His problem-solving abilities are outstanding.',
-  },
-  {
-    id: 4,
-    name: 'Ether Smith',
-    position: 'CEO of BrightStar Enterprises',
-    img: 'assets/review4.png',
-    review:
-      'Husam was a pleasure to work with. He understood our requirements perfectly and delivered a website that exceeded our expectations. His skills in both frontend backend dev are top-notch.',
+      'I can’t say enough good things about Thomas. He was able to take our hotel ideas and turn them into a seamless, functional website. His creativity abilities are outstanding.',
   },
 ];
 
 export const myProjects = [
   {
-    title: 'Speedline Auto parts',
-    desc: 'GearXpert is a modern ecommerce platform for auto parts built for performance and usability. It helps users quickly find parts for cars and trucks with a sleek, bold UI.',
+    title: 'Vision Consultancy',
+    desc: 'Developed a dynamic platform empowering users to clarify their strategic vision, set actionable goals, and connect with expert consultants for personalized guidance.',
     subdesc:
       'Developed with React.js, Tailwind CSS, and modern ecommerce best practices, GearXpert is designed for vehicle enthusiasts and sellers.',
-    href: 'https://speedlineautoparts.netlify.app/',
-    texture: '/textures/project/speedline.webp',
-    logo: '/assets/speedline-logo.png',
+    href: 'https://vision-consultancy-six.vercel.app/',
+    texture: '/textures/project/vision.png',
+    logo: '/assets/vlogo.png',
     logoStyle: {
       backgroundColor: '#2A1816',
       border: '0.2px solid #36201D',
@@ -96,13 +88,13 @@ export const myProjects = [
     ],
   },
   {
-    title: 'Tekisky Mart – Vendor-Based Marketplace',
-    desc: 'An advanced eCommerce system supporting multi-vendor capabilities and user dashboards.',
+    title: 'Tharas Kitchen',
+    desc: 'An eCommerce website supporting Home Made Dishes in order to a Small Business',
     subdesc:
-      'Full-stack platform built using MERN stack with secure authentication and admin controls.',
-    href: 'https://tekiskymart.com/',
-    texture: '/textures/project/Tekiskymart.webp',
-    logo: '/assets/tekiskyMart-logo.png',
+      'Frontend platform built with Love for The Food.',
+    href: 'https://tharas-kitchen.vercel.app/',
+    texture: '/textures/project/tkitchen.png',
+    logo: '/assets/Tlogo.png',
     logoStyle: {
       backgroundColor: '#60f5a1',
       background:
@@ -141,13 +133,13 @@ export const myProjects = [
   }
   ,
   {
-    title: 'GoGroove – Trendy Online Store',
-    desc: 'A vibrant and engaging eCommerce website with smooth UX and powerful UI, perfect for digital retail.',
+    title: 'CTR - Chikkana Tiffin Room',
+    desc: 'Crafted a user-friendly online presence for Chikkanna Tiffin Room, showcasing their menu and classic tiffin offerings to attract and inform customers.',
     subdesc:
-      'Created using the MERN stack with responsive design and smooth animations.',
-    href: 'https://your-gogroove-link.com',
-    texture: '/textures/project/GoGroove.webp',
-    logo: '/assets/G.png',
+      'A Frontend Webiste with responsive design and smooth animations.',
+    href: 'https://ctr-five.vercel.app/',
+    texture: '/textures/project/ctr.png',
+    logo: '/assets/ctrlogo.png',
     logoStyle: {
       backgroundColor: '#13202F',
       border: '0.2px solid #17293E',
@@ -201,11 +193,11 @@ export const calculateSizes = (isSmall, isMobile, isTablet) => {
 export const workExperiences = [
   {
     id: 1,
-    name: 'Tekisky pvt ltd',
-    pos: 'full-stack web developer',
-    duration: '2021 - Present',
-    title: "Tekisky is my go-to playground for crafting interactive prototypes — turning static designs into immersive experiences that stakeholders can click through, feel, and believe in before a single line of code is written.",
-    icon: '/assets/tekisky-logo.png',
+    name: 'FreeLancer',
+    pos: 'Full-Stack Web Developer',
+    duration: 'Present',
+    title: "As a full-stack web developer, I build robust, end-to-end solutions, enjoying the freedom to bring diverse digital visions to life.",
+    icon: '/assets/freelancer.png',
     animation: 'victory',
   },
 

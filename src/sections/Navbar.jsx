@@ -25,7 +25,7 @@ const Navbar = () => {
       <div className="max-w-7xl mx-auto">
         <div className="flex justify-between items-center py-5 mx-auto c-space">
           <a href="/" className=" font-semibold text-xl text-white transition-colors">
-          Husam | Devxora
+          ThomasDevs 🖥️
           </a>
 
           <button
