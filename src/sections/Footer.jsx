@@ -48,7 +48,7 @@ const Footer = () => {
 
         {/* Instagram Link */}
         <a
-          href="https://instagram.com/thomas.devs" // Replace with your actual Instagram profile URL
+          href="https://www.instagram.com/thomas.devs/?next=%2F" // Replace with your actual Instagram profile URL
           target="_blank"
           rel="noopener noreferrer"
           className="social-icon"
